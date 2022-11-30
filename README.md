@@ -9,5 +9,4 @@ This will probably not get organized beyond this README, where I'll try to list 
 - binary_method was an attempt to express spin states as 0 (down) and 1 (up), and spin operators acting on these states flipping these bits back and forth. It works, but I found other methods to be more scalable, at least intuitively
 - basis_class and spin_solver were an attempt to define a class, new objects, and methods basis states and how they act on a given operator (i.e. Hamiltonian). I gave up, it was too frustrating, and I figured out how to do it without all of this background structure
 - chiral scripts are the core of my thesis, investigating Heisenberg interaction (nearest neighbor spin dot product, Si dot Sj) with a chiral term (particle triplet term, Si cross Sj dot Sk) added, applied to a triangular lattice
-- - chiral_1d was my first pass, mostly just to get a hold of coding this new interaction
-- - 
+  - chiral_1d was my first pass, mostly just to get a hold of coding this new interaction
