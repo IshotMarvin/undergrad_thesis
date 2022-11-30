@@ -10,3 +10,6 @@ This will probably not get organized beyond this README, where I'll try to list 
 - basis_class and spin_solver were an attempt to define a class, new objects, and methods basis states and how they act on a given operator (i.e. Hamiltonian). I gave up, it was too frustrating, and I figured out how to do it without all of this background structure
 - chiral scripts are the core of my thesis, investigating Heisenberg interaction (nearest neighbor spin dot product, Si dot Sj) with a chiral term (particle triplet term, Si cross Sj dot Sk) added, applied to a triangular lattice
   - chiral_1d was my first pass, mostly just to get a hold of coding this new interaction
+  - chiral_multi_spin was the next step, adding the triangular lattice
+  - chiral_3leg was an attempt to make a 3-leg triangular lattice, which was abandoned after a bit if I remember correctly
+  - chiral_tensor was roughly my final code for my thesis (I think?), roughly because I modified it slightly to run it on my research group's supercomputer cluster cleanly
